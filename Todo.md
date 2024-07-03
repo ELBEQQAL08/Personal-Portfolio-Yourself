@@ -1,0 +1,6 @@
+- [x] Fixed Error In NavBar
+- [2] Push Project And Deplyoment In Vercel For Finish
+- [3] Watch PlayList NeetCode
+- [4] Watch PlayList English
+- [5] Watch PlayList CodinGarden Use Code Warse With Problems
+- [6] Watch Video What Is JSON Javascript
