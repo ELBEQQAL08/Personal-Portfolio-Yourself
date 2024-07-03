@@ -1,6 +1,8 @@
 - [x] Fixed Error In NavBar
-- [2] Push Project And Deplyoment In Vercel For Finish
+- [x] Push Project And Deplyoment In Vercel For Finish
+- [2] Working Events Project In Javascript
 - [3] Watch PlayList NeetCode
-- [4] Watch PlayList English
+- [4] Watch Podcast In KASS ATAY PODCAST
 - [5] Watch PlayList CodinGarden Use Code Warse With Problems
-- [6] Watch Video What Is JSON Javascript
+- [6] Watch PlayList English
+- [7] Watch Video What Is JSON Javascript
