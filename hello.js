@@ -14,5 +14,18 @@ const Education = document.querySelector('.education');
 const HTML = document.querySelector('.html');
 const WEB = document.querySelector('.web');
 const borderBottom = document.querySelector('.border-bottom-js');
+const HTML1 = document.querySelector('.html-1');
+const WEB1 = document.querySelector('.web-1');
+const HTML2 = document.querySelector('.html-2');
+const WEB2 = document.querySelector('.web-2');
+const H3 = document.querySelector('.html-2');
 
-// NavBar Section
+// Second Section
+
+Experience.addEventListener('click', () => {
+    Experience.classList.add('border-bottom-js');
+    HTML1.style.display = "block";
+    WEB1.style.display = "block";
+    Skills.classList.remove('border-bottom-js');
+    H3.classList.remove('.html-2');
+})

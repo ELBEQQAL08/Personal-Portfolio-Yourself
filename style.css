@@ -163,7 +163,7 @@ nav li {
 }
 
 .section-left img {
-    padding-top: 0rem;
+    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
 }
@@ -226,38 +226,48 @@ li.border-bottom-js:hover::before {
     padding-right: 2.5rem;
 }
 
-.border-bottom-js::after {
+.container-links {
+    display: flex;
+    margin: 5px 0 40px;
+}
+
+.container-links p {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-right: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.skills::after {
     content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
     position: absolute;
-    top: 2.4rem;
+    top: 2.5rem;
     left: 0;
-    bottom: -6px;
+    bottom: -8px;
+    width: 50%;
+    background-color: #ff004f;
+    height: 3px;
     transition: 0.5s;
 }
 
-.border-bottom-js.boder-bottom-after::after {
-    width: 50%;
+.container-content {
+    display: flex;
 }
 
-.container-Skills ul li {
+.container-content ul li {
     list-style: none;
-}
-
-.container-Skills ul li span {
-    font-size: 10px;
-    font-weight: 400;
-    color: #ff004f;
-}
-
-.container-Skills ul li {
+    margin: 10px 0;
+    color: white;
     font-size: 15px;
     font-weight: 500;
-    color: white;
 }
 
-.container-Skills ul li .html-1, .container-Skills ul li .web-1 {display: block;}
+.container-content ul li span {
+    color: #b54769;
+    font-size: 14px;
+}
+
 
 /* End Second Section */
