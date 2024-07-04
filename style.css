@@ -396,7 +396,13 @@ li.border-bottom-js:hover::before {
 .box-2 {
     border-radius: 10px;
     cursor: pointer;
+    /* transition: background 0.5s, transform 0.5s; */
 }
+
+/* .box-2:hover {
+    background-color: #401422;
+    transform: translateY(-10%);
+} */
 
 .box-2 img {
     border-radius: 10px;
@@ -412,6 +418,7 @@ li.border-bottom-js:hover::before {
     font-weight: 500;
     color: white;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 .box-2 p {
@@ -419,12 +426,15 @@ li.border-bottom-js:hover::before {
     font-weight: 500;
     color: white;
     padding-top: 0.5rem;
+    text-align: center;
 }
 
 .box-2 svg {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    vertical-align: middle;
+    background-color: white;
 }
 
 /* End Portfolio Section */
