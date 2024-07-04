@@ -188,10 +188,6 @@ nav li {
     padding-bottom: 1.5rem;
 }
 
-ul {
-    display: flex;
-}
-
 ul li {
     position: relative;
 }
@@ -228,7 +224,7 @@ li.border-bottom-js:hover::before {
 
 .container-links {
     display: flex;
-    margin: 5px 0 40px;
+    margin: 4px 0 40px;
 }
 
 .container-links p {
@@ -253,15 +249,16 @@ li.border-bottom-js:hover::before {
 }
 
 .container-content {
-    display: flex;
+    display: inline-block;
 }
 
-.container-content ul li {
+.container-content ul li{
     list-style: none;
     margin: 10px 0;
-    color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
+    color: white;
+    padding-top: 0.5rem;
 }
 
 .container-content ul li span {
@@ -269,5 +266,12 @@ li.border-bottom-js:hover::before {
     font-size: 14px;
 }
 
+.container-content.active-contents {
+    display: block;
+}
+
+.container-content {
+    display: none;
+}
 
 /* End Second Section */
