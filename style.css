@@ -95,7 +95,7 @@ nav li {
 
 /* End NavBar Section */
 
-/* Start First Section */
+/* Start Home Section */
 
 .content-container {
     display: flex;
@@ -151,18 +151,20 @@ nav li {
     transform: translateY(-10%);
 }
 
-/* End First Section */
+/* End Home Section */
 
-/* Start Second Section */
+/* Start Services Section */
 
 #about {
     background-color: #080808;
     margin-top: 8rem;
+    margin-bottom: 1.5rem;
 }
 
 .second-container {
     display: flex;
-    padding-top: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 2.5rem;
 }
 
 .section-left {
@@ -289,4 +291,116 @@ li.border-bottom-js:hover::before {
     display: block;
 }
 
-/* End Second Section */
+/* End About Section */
+
+/* Start Services Section */
+
+#services {
+    background-color: #080808;
+    padding-top: 5.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.services-container {
+    padding-top: 0.5rem;
+    padding-bottom: 4rem;
+}
+
+.top {
+    display: inline-block;
+}
+
+.top h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 4.5rem;
+}
+
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.box { 
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.5s, transform 0.8s;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #ff004f;
+    transform: translateY(-10%);
+}
+
+.box:hover {
+    transform: translateY(-10%);
+}
+
+.box svg {
+    width: 81px;
+    height: 50px;
+    fill: currentColor;
+    color: white;
+}
+
+.box h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.box a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+/* End Services Section */
+
+/* Start Portfolio Section */
+
+#portfolio {
+    background-color: #080808;
+    padding-top: 5.5rem;
+}
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-2 img {
+    border-radius: 10px;
+}
+
+/* End Portfolio Section */
