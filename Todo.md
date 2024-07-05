@@ -1,11 +1,11 @@
 - [x] Fixed Error In NavBar
 - [x] Push Project And Deplyoment In Vercel For Finish
 - [x] Working Events Project In Javascript
-- [x] Watch PlayList NeetCode
-- [4] Fix Problem Position First Section
+- [4] Watch PlayList NeetCode
 - [5] Watch Podcast In KASS ATAY PODCAST
 - [6] Watch PlayList CodinGarden Use Code Warse With Problems
 - [7] Watch PlayList English
 - [8] Watch Video What Is JSON Javascript
 - [9] Intgere Project With Google Console And Google Analytique
 - [10] Check Name Cheap By Domaine Name
+- [11] Fix Problem Position First Section
