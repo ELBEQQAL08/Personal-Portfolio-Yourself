@@ -68,6 +68,10 @@ nav li {
     position: relative;
 }
 
+.menu {
+    display: none;
+}
+
 .boder-bottom::before {
     content: '';
     background-color: #ff004f;
@@ -376,6 +380,7 @@ li.border-bottom-js:hover::before {
 #portfolio {
     background-color: #080808;
     padding-top: 5.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .container-portfolio {
@@ -427,15 +432,15 @@ li.border-bottom-js:hover::before {
 }
 
 .box-2:hover img {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .box-2:hover .contain-contents {
-    height: 81%;
+    height: 100%;
 }
 
 .box-2 h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: white;
     text-align: center;
@@ -455,23 +460,107 @@ li.border-bottom-js:hover::before {
     height: 60px;
     border-radius: 50%;
     margin-top: 20px;
+    margin-bottom: 2rem;
     background-color: #fff;
     padding: 1rem 0;
     cursor: pointer;
     font-size: 18px;
 }
 
-.box-2 .See-more {
-    padding: 10px 20px;
-    vertical-align: middle;
-    background-color: transparent;
-    color: #b54769;
-    border: 2px solid #ff004f;
-    font-size: 1rem;
+.btn {
+    display: block;
+    padding: 14px 50px;
+    margin: 50px auto;
+    border-radius: 6px;
+    border: 1px solid #ff004f;
+    color: #ff004f;
+    background: transparent;
+    font-size: 1em;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #ff004f;
+    color: white;
 }
 
 /* End Portfolio Section */
+
+/* Start Contact Section */
+
+#contact {
+    background-color: #080808;
+    padding-top: 4.5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-contact {
+    display: grid;
+}
+
+.left-contact h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 1.8rem;
+}
+
+.left-contact svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+    color: #ff004f;
+}
+
+.left-contact p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(213, 212, 212);
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* End Contact Section */
+
+/* Start Responsive Moble And Medium */
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+    /* NavBar */
+
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo span {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav ul li.menu {
+        width: 40px;
+        height: 40px;
+        fill: currentColor;
+        background-color: wheat;
+    }
+
+}
+
+/* End Responsive Mobile And Medium */

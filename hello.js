@@ -47,3 +47,5 @@ function showContent() {
 Experience.addEventListener('click', () => {
     showContent();
 });
+
+// Menu NavBar Section
