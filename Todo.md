@@ -1,11 +1,15 @@
 - [x] Fixed Error In NavBar
 - [x] Push Project And Deplyoment In Vercel For Finish
 - [x] Working Events Project In Javascript
-- [4] Watch PlayList NeetCode
-- [5] Watch Podcast In KASS ATAY PODCAST
+- [x] Watch PlayList NeetCode
+- [x] Watch Podcast In KASS ATAY PODCAST
 - [6] Watch PlayList CodinGarden Use Code Warse With Problems
-- [7] Watch PlayList English
-- [8] Watch Video What Is JSON Javascript
-- [9] Intgere Project With Google Console And Google Analytique
-- [10] Check Name Cheap By Domaine Name
-- [11] Fix Problem Position First Section
+- [7] Solve Problem In CodeWars
+- [8] Watch PlayList English
+- [9] Watch Video What Is JSON Javascript
+- [10] Intgere Project With Google Console And Google Analytique
+- [11] Check Name Cheap By Domaine Name
+- [12] Fix Problem Position First Section
+- [13] Finish Portfolio And Deployement In Vercel
+- [14] Check What Is TypeScript Using Traversy Media
+- [15] Check Framework Angular And Practice In Project Using Traversy Media 
