@@ -138,6 +138,7 @@ nav li {
     margin-top: 1.5rem;
     margin-left: 2.5rem;
     cursor: pointer;
+    background-attachment: fixed;
 }
 
 .right-section img {
