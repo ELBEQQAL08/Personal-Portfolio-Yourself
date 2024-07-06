@@ -11,6 +11,9 @@ const borderBottom = document.querySelector('.bor-bot');
 const SKILL = document.querySelector('#skills');
 const EXPERIENCE  = document.querySelector('#experience');
 const EDUCATION = document.querySelector('#education');
+const Menu = document.querySelector('.menu');
+const menuCha = document.querySelector('.menu-cha');
+const side = document.getElementById('side-content');
 
 // Second Section
 
@@ -49,3 +52,15 @@ Experience.addEventListener('click', () => {
 });
 
 // Menu NavBar Section
+
+function openmenu() {
+    side.style.right = "0";
+    side.style.transition = "0.5s";
+    side.style.translate = "20%";
+}
+
+function closemenu() {
+    side.style.right = "-200px";
+    side.style.transition = "0.5s";
+    side.style.translate = "-0%";
+}
