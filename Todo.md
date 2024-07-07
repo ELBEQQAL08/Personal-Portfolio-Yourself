@@ -3,10 +3,10 @@
 - [x] Working Events Project In Javascript
 - [x] Watch PlayList NeetCode
 - [x] Watch Podcast In KASS ATAY PODCAST
-- [6] Watch PlayList CodinGarden Use Code Warse With Problems
-- [7] Solve Problem In CodeWars
-- [8] Watch PlayList English
-- [9] Watch Video What Is JSON Javascript
+- [x] Watch PlayList CodinGarden Use Code Warse With Problems
+- [x] Solve Problem In CodeWars
+- [x] Watch PlayList English
+- [x] Watch Video What Is JSON Javascript
 - [10] Intgere Project With Google Console And Google Analytique
 - [11] Check Name Cheap By Domaine Name
 - [12] Fix Problem Position First Section
