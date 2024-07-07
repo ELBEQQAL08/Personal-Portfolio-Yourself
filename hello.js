@@ -13,7 +13,15 @@ const EXPERIENCE  = document.querySelector('#experience');
 const EDUCATION = document.querySelector('#education');
 const Menu = document.querySelector('.menu');
 const menuCha = document.querySelector('.menu-cha');
-const side = document.getElementById('side-content');
+const Side = document.getElementById('side-content');
+const input1 = document.querySelector('.name');
+const input2 = document.querySelector('.email');
+const Message = document.querySelector('#message');
+const textArea = document.querySelector('textarea');
+const Error = document.querySelector('.error');
+const displayError = document.querySelector('.display-error');
+const Sucess = document.querySelector('.sucess');
+const displaySucess = document.querySelector('.display-sucess');
 
 // Second Section
 
@@ -54,13 +62,47 @@ Experience.addEventListener('click', () => {
 // Menu NavBar Section
 
 function openmenu() {
-    side.style.right = "0";
-    side.style.transition = "0.5s";
-    side.style.translate = "20%";
+    Side.style.right = "0";
+    Side.style.transition = "0.5s";
+    Side.style.translate = "20%";
 }
-
+    
 function closemenu() {
-    side.style.right = "-200px";
-    side.style.transition = "0.5s";
-    side.style.translate = "-0%";
+    Side.style.right = "-200px";
+    Side.style.transition = "0.5s";
+    Side.style.translate = "-0%";
+}
+        
+// Form Section        
+        
+// Google Sheet In Form 
+
+const Form = document.getElementById('sheetdb-form');
+const btnSend = document.querySelector('.submit');
+
+btnSend.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(Form.action, {
+    method: "POST",
+    body: new FormData(document.getElementById("sheetdb-form")),
+  })
+    .then((Response) => Response.json())
+    .then((html) => {
+      // you can put any JS code here
+      window.open("index.html", "_blank");
+    });
+});
+
+// Error Message In Form
+
+function showError(errorElement, errorMessage) {
+    document.querySelector("." + errorElement).classList.add("display-error");
+    document.querySelector("." + errorElement).innerHTML = errorMessage;
+  }
+
+btnSend.onclick = function(event) {
+
+    if (Input.value === '') {
+        showError('name-erro', )
+    }
 }
