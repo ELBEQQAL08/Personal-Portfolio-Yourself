@@ -89,7 +89,7 @@ btnSend.addEventListener("click", (e) => {
     .then((Response) => Response.json())
     .then((html) => {
       // you can put any JS code here
-      window.open("index.html", "_blank");
+      window.open("d.html", "_blank");
     });
 });
 
@@ -102,7 +102,23 @@ function showError(errorElement, errorMessage) {
 
 btnSend.onclick = function(event) {
 
-    if (Input.value === '') {
-        showError('name-erro', )
+    if (input1.value === '') {
+        showError('name-error', 'You have to enter your name');
+        return false;
     }
+
+    if (input2.value === "") {
+        showError('email-error', 'You have to enter your email');
+        return false;
+    }
+
+    if (textArea.value === "") {
+        showError('message-error', 'You have to enter your message');
+        return false;
+    }
+
+    document.querySelector(".success").classList.add("display-success");
+    document.querySelector(".success").innerHTML =
+      "Your registration was successful.";
+
 }
