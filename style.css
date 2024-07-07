@@ -44,6 +44,10 @@ body {
     font-size: 4.5rem;
 }
 
+nav {
+    padding-top: 2.5rem;
+}
+
 nav ul li {
     display: inline-block;
     margin: 10px;
@@ -68,9 +72,10 @@ nav li {
     position: relative;
 }
 
-.menu {
+.fa-solid {
     display: none;
 }
+
 
 .boder-bottom::before {
     content: '';
@@ -590,8 +595,8 @@ li.border-bottom-js:hover::before {
         left: 25px;
         font-size: 35px;
     }
-/* 
-    .menu-1 {
+
+    .fa-solid.fa-bars {
         display: block;
         fill: currentColor;
         color: white;
@@ -600,8 +605,9 @@ li.border-bottom-js:hover::before {
         cursor: pointer;
         position: absolute;
         top: 45px;
-        left: 19rem;
-    } */
+        left: 86%;
+        font-size: 35px;
+    }
 
     /* Home Section */
 
@@ -668,14 +674,30 @@ li.border-bottom-js:hover::before {
     }
 
     .section-right .title-top {
-        font-size: 48px;
+        font-size: 70px;
         font-weight: 500;
         padding-top: 1.5rem;
     }
 
     .container-links p {
-        margin-right: 14px;
+        margin-right: auto;
     }
+
+    /* Services Section */
+
+    .top h1 {
+        font-size: 3.5rem;
+        padding-left: 30px;
+    }
+
+    .container-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    /* Portfolio Section */
 
 }
 
