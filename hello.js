@@ -4,24 +4,24 @@
 
 const contentLinks = document.querySelector('.container-links');
 const containerContents = document.querySelector('.container-content');
+const borderBottom = document.querySelector('.bor-bot');
+const menuCha = document.querySelector('.menu-cha');
+const textArea = document.querySelector('textarea');
+const displayError = document.querySelector('.display-error');
+const displaySucess = document.querySelector('.display-sucess');
+const input1 = document.querySelector('.name');
+const input2 = document.querySelector('.email');
 const Skill = document.querySelector('.skills');
 const Experience = document.querySelector('.experience');
 const Education = document.querySelector('.education');
-const borderBottom = document.querySelector('.bor-bot');
+const Menu = document.querySelector('.menu');
+const Side = document.getElementById('side-content');
+const Message = document.querySelector('#message');
+const Error = document.querySelector('.error');
+const Sucess = document.querySelector('.sucess');
 const SKILL = document.querySelector('#skills');
 const EXPERIENCE  = document.querySelector('#experience');
 const EDUCATION = document.querySelector('#education');
-const Menu = document.querySelector('.menu');
-const menuCha = document.querySelector('.menu-cha');
-const Side = document.getElementById('side-content');
-const input1 = document.querySelector('.name');
-const input2 = document.querySelector('.email');
-const Message = document.querySelector('#message');
-const textArea = document.querySelector('textarea');
-const Error = document.querySelector('.error');
-const displayError = document.querySelector('.display-error');
-const Sucess = document.querySelector('.sucess');
-const displaySucess = document.querySelector('.display-sucess');
 
 // Second Section
 
@@ -98,11 +98,11 @@ btnSend.addEventListener("click", (e) => {
 function showError(errorElement, errorMessage) {
     document.querySelector("." + errorElement).classList.add("display-error");
     document.querySelector("." + errorElement).innerHTML = errorMessage;
-  }
+}
 
 btnSend.onclick = function(event) {
 
-    if (input1.value === '') {
+    if (input1.value === "") {
         showError('name-error', 'You have to enter your name');
         return false;
     }

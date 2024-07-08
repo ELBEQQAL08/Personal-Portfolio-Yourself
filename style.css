@@ -116,7 +116,7 @@ nav li {
 .left-section p {
     font-size: 15px;
     font-weight: 400;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(213, 212, 212);
 }
 
@@ -275,7 +275,7 @@ li.border-bottom-js:hover::before {
     display: inline-block;
 }
 
-.container-content ul li{
+.container-content ul li {
     list-style: none;
     margin: 20px 0;
     font-size: 14px;
@@ -519,7 +519,8 @@ li.border-bottom-js:hover::before {
     padding-bottom: 1.8rem;
 }
 
-.left-contact .fa-solid {
+.left-contact .fa-solid.fa-paper-plane,
+.left-contact .fa-solid.fa-phone {
     font-size: 30px;
     color: #ff004f;
     margin-right: 20px;
@@ -537,7 +538,10 @@ li.border-bottom-js:hover::before {
     margin-top: 1rem;
 }
 
-.fa-brands {
+.fa-brands.fa-facebook,
+.fa-brands.fa-square-instagram,
+.fa-brands.fa-square-twitter,
+.fa-brands.fa-linkedin {
     color: #fff;
     font-size: 30px;
     border-radius: 50%;
@@ -584,10 +588,12 @@ form {
     padding: 10px 25px;
     margin-bottom: 1rem;
     border-radius: 5px;
+    color: white;
 }
 
 .right-contact form textarea {
     background-color: #262626;
+    color: white;
     border: 0;
     font-size: 1rem;
     font-weight: 500;
@@ -621,7 +627,7 @@ form {
     background-color: #262626;
     padding: 10px 0;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
     
 .background-footer p {
@@ -637,7 +643,7 @@ form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.background-footer i {
+.background-footer .fa-solid.fa-heart {
     color: #ff004f;
 }
 
@@ -728,7 +734,7 @@ form {
         color: white;
     }
 
-    .fa-solid {
+    .fa-solid.fa-xmark {
         display: block;
         fill: currentColor;
         color: white;
@@ -860,6 +866,87 @@ form {
         border-radius: 10px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    /* Contact Section */
+
+    #contact {
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2rem;
+    }
+
+    .content-container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .left-contact {
+        flex-basis: 100%;
+        margin-right: auto;
+    }
+
+    .right-contact {
+        flex-basis: 100%;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .left-contact h1 {
+        font-size: 3rem;
+    }
+
+    .left-contact .download {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    .background-footer {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .background-footer p {
+        font-size: 13px;
+    }
+
+}
+
+/* Another Screen Change Content */
+
+@media screen and (min-width: 365px) {
+    /* Home Section */
+
+    .content-change {
+        padding-left: 0;
+    }
+
+    .left-section h1 {
+        font-size: 2.8rem;
+    }
+
+    .left-section .title-b {
+        font-size: 1.5rem;
+    }
+
+    /* About Section */
+
+    .section-right .title-top {
+        font-size: 66px;
+    }
+
+    .container-links p {
+        margin-right: 11px;
+    }
+
+    .top h1 {
+        font-size: 3rem;
+    }
+
+    .background-footer p {
+        font-size: 12px;
     }
 
 }
