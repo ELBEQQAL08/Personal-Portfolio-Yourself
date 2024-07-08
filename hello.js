@@ -11,6 +11,8 @@ const displayError = document.querySelector('.display-error');
 const displaySucess = document.querySelector('.display-sucess');
 const input1 = document.querySelector('.name');
 const input2 = document.querySelector('.email');
+const linkContent = document.querySelector('.active-close');
+const navUl = document.querySelector('nav ul');
 const Skill = document.querySelector('.skills');
 const Experience = document.querySelector('.experience');
 const Education = document.querySelector('.education');
@@ -72,7 +74,13 @@ function closemenu() {
     Side.style.transition = "0.5s";
     Side.style.translate = "-0%";
 }
-        
+
+Side.addEventListener('click', () => {
+    Side.style.right = '-200px';
+    Side.style.transition = "0.8s";
+    Side.style.translate = "-0%"; 
+});
+
 // Form Section        
         
 // Google Sheet In Form 
@@ -122,3 +130,24 @@ btnSend.onclick = function(event) {
       "Your registration was successful.";
 
 }
+
+// Cercle Top
+
+const calcValueScroll= () => {    
+    const topContainer = document.querySelector('.top-cercle');
+    const topSpan = document.querySelector('.icon-cerlce');
+    const pos = document.documentElement.scrollTop;
+    const calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollValue = Math.round((pos * 100) / calcHeight);
+    if (pos > 100) {
+        topContainer.style.display = "flex";
+    } else {
+        topContainer.style.display = "none";
+    }
+    topContainer.addEventListener('click', () => {
+        document.documentElement.scrollTop = 0;
+    });
+}
+
+window.onscroll = calcValueScroll;
+window.onload = calcValueScroll;
