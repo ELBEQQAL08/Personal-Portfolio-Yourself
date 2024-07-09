@@ -1,6 +1,6 @@
 // Nav Bar Section
 
-//  Declarated All Elements Used In Javascript
+// Declarated All Elements Used In Javascript
 
 const contentLinks = document.querySelector('.container-links');
 const containerContents = document.querySelector('.container-content');
@@ -13,6 +13,7 @@ const input1 = document.querySelector('.name');
 const input2 = document.querySelector('.email');
 const linkContent = document.querySelector('.active-close');
 const navUl = document.querySelector('nav ul');
+const btnSend = document.querySelector('.submit');
 const Skill = document.querySelector('.skills');
 const Experience = document.querySelector('.experience');
 const Education = document.querySelector('.education');
@@ -82,58 +83,35 @@ Side.addEventListener('click', () => {
 });
 
 // Form Section        
-        
-// Google Sheet In Form 
 
-const Form = document.getElementById('sheetdb-form');
-const btnSend = document.querySelector('.submit');
+const Form = document.getElementById("sheetdb-form");
+const Name = document.querySelector('.name');
+const email = document.querySelector('.email');
+const message = document.querySelector('#message');
 
-btnSend.addEventListener("click", (e) => {
-  e.preventDefault();
-  fetch(Form.action, {
-    method: "POST",
-    body: new FormData(document.getElementById("sheetdb-form")),
-  })
-    .then((Response) => Response.json())
-    .then((html) => {
-      // you can put any JS code here
-      window.open("d.html", "_blank");
-    });
+function sendEmail() {
+    let bodyMessage = `Name: ${Name.value}<br> Email: ${email.value}<br> Message: ${message.value}`; 
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "elbeqqal.kamal@gmail.com",
+        Password : "6AD28870DFA64419EE9CF3E1452C33B7B9F9",
+        To : 'elbeqqal.kamal@gmail.com',
+        From : "elbeqqal.kamal@gmail.com",
+        Subject : 'This is the subject',
+        Body : bodyMessage
+    }).then(
+      message => alert(message)
+    );
+}
+
+Form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    sendEmail();
 });
-
-// Error Message In Form
-
-function showError(errorElement, errorMessage) {
-    document.querySelector("." + errorElement).classList.add("display-error");
-    document.querySelector("." + errorElement).innerHTML = errorMessage;
-}
-
-btnSend.onclick = function(event) {
-
-    if (input1.value === "") {
-        showError('name-error', 'You have to enter your name');
-        return false;
-    }
-
-    if (input2.value === "") {
-        showError('email-error', 'You have to enter your email');
-        return false;
-    }
-
-    if (textArea.value === "") {
-        showError('message-error', 'You have to enter your message');
-        return false;
-    }
-
-    document.querySelector(".success").classList.add("display-success");
-    document.querySelector(".success").innerHTML =
-      "Your registration was successful.";
-
-}
 
 // Cercle Top
 
-const calcValueScroll= () => {    
+const calcValueScroll = () => {    
     const topContainer = document.querySelector('.top-cercle');
     const topSpan = document.querySelector('.icon-cerlce');
     const pos = document.documentElement.scrollTop;

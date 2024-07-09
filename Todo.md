@@ -7,9 +7,17 @@
 - [x] Solve Problem In CodeWars
 - [x] Watch PlayList English
 - [x] Watch Video What Is JSON Javascript
-- [10] Intgere Project With Google Console And Google Analytique
-- [11] Check Name Cheap By Domaine Name
-- [12] Fix Problem Position First Section
-- [13] Finish Portfolio And Deployement In Vercel
-- [14] Check What Is TypeScript Using Traversy Media
-- [15] Check Framework Angular And Practice In Project Using Traversy Media 
+- [11] Working Gmail In Form Contact
+- [12] Working Error Messages In Form Contact
+- [13] Check Practice JSON
+- [14] Check What Is TypeScript With Practice
+- [15] Solve Problem In CodeWorse
+- [16] Check CodingGarden With CodeWorse
+- [17] Add Domain Name Random String Generator In Vercel
+- [18] Stude Arrow Function() In Javascript
+- [19] Check What Is Angular And Next.Js
+- [20] Intgere Project With Google Console And Google Analytique
+- [21] Check Name Cheap By Domaine Name
+- [22] Fix Problem Position First Section
+- [23] Finish Portfolio And Deployement In Vercel
+- [24] Watch Podcast KASS ATAY PODCAST
