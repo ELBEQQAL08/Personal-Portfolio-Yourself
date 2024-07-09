@@ -647,21 +647,16 @@ form {
     color: #ff004f;
 }
 
-.name-error,
-.email-error,
-.message-error {
+.error {
     color: #af4242;
-    background-color: #fde8ec;
     padding: 10px;
     display: none;
 }
 
-.name-error,
-.email-error,
-.message-error.display-error {
-    display: none;
-    margin-top: 34px;
-    margin-bottom: 20px;
+.error.display-error {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
     transform: translateY(-20px);
     font-size: 1.077em;
     font-weight: 600;
@@ -669,7 +664,7 @@ form {
     border-radius: 10px;
 }
 
-.sucess {
+.success {
     margin-top: 30px;
     margin-bottom: 30px;
     color: green;
@@ -683,7 +678,7 @@ form {
 }
 
 .success.display-success {
-    display: block;
+    display: none;
 }
 
 /* End Contact Section */
@@ -944,6 +939,7 @@ form {
         margin-top: 36px;
         margin-bottom: 36px;
         text-align: center;
+        width: 98%;
     }
 
     .background-footer {
@@ -1282,7 +1278,7 @@ form {
         }
 
         .left-contact {
-            margin-left: 1rem;
+            margin-left: 0.5rem;
         }
 
         .left-section h1 {

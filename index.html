@@ -21,21 +21,21 @@
 
     <!-- Start NavBar Section -->
     
-    <section class="nav-bar">
+<section class="nav-bar">
     <div class="container">
         <div class="main-container">
             <div class="logo">
                 <h1><span>K</span>.elbeqqal</h1>
             </div>
                 <nav>
-                    <ul id="side-content">
-                        <li class="boder-bottom"><a href="#home" class="active active-close home">Home</a></li>
-                        <li class="boder-bottom"><a href="#about" class="about active-close">About</a></li>
-                        <li class="boder-bottom"><a href="#services" class="services active-close">Services</a></li>
-                        <li class="boder-bottom"><a href="#portfolio" class="portfolio active-close">Portfolio</a></li>
-                        <li class="boder-bottom"><a href="#contact" class="contact active-close">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                    </ul>
+                <ul id="side-content">
+                    <li class="boder-bottom"><a href="#home" class="active active-close home">Home</a></li>
+                    <li class="boder-bottom"><a href="#about" class="about active-close">About</a></li>
+                    <li class="boder-bottom"><a href="#services" class="services active-close">Services</a></li>
+                    <li class="boder-bottom"><a href="#portfolio" class="portfolio active-close">Portfolio</a></li>
+                    <li class="boder-bottom"><a href="#contact" class="contact active-close">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
         </div>
@@ -55,7 +55,7 @@
                 <h1 class="title-b">Front End Developer</h1>
             </div>
             <div class="right-section">
-                <img src="./images/WhatsApp Image 2024-07-03 at 16.44.22.jpeg" alt="Personal" title="Personal">
+                <img src="./images/WhatsApp Image 2024-07-03 at 16.44.22.jpeg" alt="Personal" title="Personal"></img>
             </div>
         </div>
     </div>
@@ -175,7 +175,7 @@
                 <h1>Contact Me</h1>
                 <p><i class="fa-solid fa-paper-plane"></i>elbeqqalbusiness@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i>0682699302</p>
-            <div class="icon-container">
+                <div class="icon-container">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-square-instagram"></i>
                     <i class="fa-brands fa-square-twitter"></i>
@@ -184,16 +184,17 @@
                     <a href="./images/iphone-apps.jpg" class="download btn" download>Download CV</a> 
             </div>
         <div class="right-contact">
-                <form action="https://sheetdb.io/api/v1/zgoazm9j2nqva" method="post" id="sheetdb-form" autocomplete="off">
-                    <input type="name" class="name" name="data[name]" placeholder="Your Name" required>
-                    <p class="name-error display-error"></p>
-                    <input type="email" class="email" name="data[email]" placeholder="Your Email" required>
-                    <p class="email-error display-error"></p>
-                    <textarea id="message" name="data[message]" placeholder="Your Message"></textarea>
-                    <p class="message-error display-error"></p>
-                    <button class="submit btn" onclick="sendEmail()">Submit</button>
-                    <p class="success display-success"></p>
-                </form>
+            <form id="sheetdb-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="6f73231d-7ae2-462a-8ef1-f3e95927230b">
+                    <input type="name" class="name" name="Name" placeholder="Your Name" required>
+                    <p class="error name-error"></p>
+                    <input type="email" class="email" name="Email" placeholder="Your Email" required>
+                    <p class="error email-error"></p>
+                    <textarea id="message" name="Message" placeholder="Your Message"></textarea>
+                    <p class="error message-error"></p>
+                    <button class="submit btn" onclick="showError" onclick="clearError">Submit</button>
+                    <p class="success"></p>
+            </form>
         </div>
         </div>
         <div class="background-footer">

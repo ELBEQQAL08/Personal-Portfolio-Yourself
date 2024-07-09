@@ -18,6 +18,7 @@ const Skill = document.querySelector('.skills');
 const Experience = document.querySelector('.experience');
 const Education = document.querySelector('.education');
 const Menu = document.querySelector('.menu');
+const input3 = document.getElementById('message');
 const Side = document.getElementById('side-content');
 const Message = document.querySelector('#message');
 const Error = document.querySelector('.error');
@@ -82,32 +83,45 @@ Side.addEventListener('click', () => {
     Side.style.translate = "-0%"; 
 });
 
-// Form Section        
+// Error In Form Section
 
-const Form = document.getElementById("sheetdb-form");
-const Name = document.querySelector('.name');
-const email = document.querySelector('.email');
-const message = document.querySelector('#message');
-
-function sendEmail() {
-    let bodyMessage = `Name: ${Name.value}<br> Email: ${email.value}<br> Message: ${message.value}`; 
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "elbeqqal.kamal@gmail.com",
-        Password : "6AD28870DFA64419EE9CF3E1452C33B7B9F9",
-        To : 'elbeqqal.kamal@gmail.com',
-        From : "elbeqqal.kamal@gmail.com",
-        Subject : 'This is the subject',
-        Body : bodyMessage
-    }).then(
-      message => alert(message)
-    );
+function showError(errorElement, errorMessage) {
+    document.querySelector("." + errorElement).classList.add("display-error");
+    document.querySelector("." + errorElement).innerHTML = errorMessage;
 }
 
-Form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    sendEmail();
-});
+function clearError() {
+    let errors = document.querySelectorAll('.errors');
+    for (let error of errors) {
+        error.classList.remove('display-error');
+    }
+}
+
+btnSend.onclick = function (event) {
+    clearError();
+
+    if (input1.value === "") {
+        showError('name-error', 'You have to enter your name');
+        showError.classList.remove('email-error');
+        return false;
+    }
+
+    if (input2.value === "") {
+        showError('email-error', 'You have to enter your email');
+        showError.classList.remove('name-error');
+        return false;
+    }
+
+    if (input3.value === "") {
+        showError('message-error', 'You have to enter your message');
+        return false;
+    }
+
+    document.querySelector.classList.add('display-success');
+    document.querySelector.innerHTML = "Your registration was successful.";
+
+    event.preventDefault();
+}
 
 // Cercle Top
 
