@@ -166,6 +166,9 @@ nav li {
     background-color: #080808;
     margin-top: 8rem;
     margin-bottom: 1.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .second-container {
@@ -306,6 +309,9 @@ li.border-bottom-js:hover::before {
     background-color: #080808;
     padding-top: 5.5rem;
     margin-bottom: 1.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .services-container {
@@ -387,6 +393,10 @@ li.border-bottom-js:hover::before {
     background-color: #080808;
     padding-top: 5.5rem;
     padding-bottom: 3rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .container-portfolio {
@@ -499,6 +509,9 @@ li.border-bottom-js:hover::before {
 #contact {
     background-color: #080808;
     padding-top: 4.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .contact-container {

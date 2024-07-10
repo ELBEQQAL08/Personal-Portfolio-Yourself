@@ -7,17 +7,22 @@
 - [x] Solve Problem In CodeWars
 - [x] Watch PlayList English
 - [x] Watch Video What Is JSON Javascript
-- [11] Working Gmail In Form Contact
-- [12] Working Error Messages In Form Contact
-- [13] Check Practice JSON
-- [14] Check What Is TypeScript With Practice
-- [15] Solve Problem In CodeWorse
-- [16] Check CodingGarden With CodeWorse
-- [17] Add Domain Name Random String Generator In Vercel
-- [18] Stude Arrow Function() In Javascript
-- [19] Check What Is Angular And Next.Js
-- [20] Intgere Project With Google Console And Google Analytique
-- [21] Check Name Cheap By Domaine Name
-- [22] Fix Problem Position First Section
-- [23] Finish Portfolio And Deployement In Vercel
-- [24] Watch Podcast KASS ATAY PODCAST
+- [x] Working Gmail In Form Contact
+- [x] Working Error Messages In Form Contact
+- [x] Check Practice JSON + Practice
+- [x] Check What Is TypeScript With Practice
+- [x] Solve Problem In CodeWorse
+- [x] Check CodingGarden With CodeWorse
+- [x] Stude Arrow Function() In Javascript
+- [x] Stude ParseInteger() In Javascript
+- [x] recursive Function()
+- [21] LinkedList Practise
+- [22] Check What Is Angular And Next.Js
+- [23] Intgere Project With Google Console And Google Analytique
+- [24] Check Name Cheap By Domaine Name
+- [25] Fix Problem Position First Section
+- [26] Finish Portfolio And Deployement In Vercel
+- [27] Check PlayList NeetCode
+- [28] Check PlayList English
+- [29] Watch Podcast KASS ATAY PODCAST
+- [30] Add Domain Name Random String Generator In Vercel
