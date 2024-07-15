@@ -1,28 +1,36 @@
-- [x] Fixed Error In NavBar
-- [x] Push Project And Deplyoment In Vercel For Finish
-- [x] Working Events Project In Javascript
-- [x] Watch PlayList NeetCode
-- [x] Watch Podcast In KASS ATAY PODCAST
-- [x] Watch PlayList CodinGarden Use Code Warse With Problems
-- [x] Solve Problem In CodeWars
-- [x] Watch PlayList English
-- [x] Watch Video What Is JSON Javascript
-- [x] Working Gmail In Form Contact
-- [x] Working Error Messages In Form Contact
-- [x] Check Practice JSON + Practice
-- [x] Check What Is TypeScript With Practice
-- [x] Solve Problem In CodeWorse
-- [x] Check CodingGarden With CodeWorse
-- [x] Stude Arrow Function() In Javascript
-- [x] Stude ParseInteger() In Javascript
-- [x] recursive Function()
-- [21] LinkedList Practise
-- [22] Check What Is Angular And Next.Js
+- [X] Fixed Error In NavBar
+- [X] Push Project And Deplyoment In Vercel For Finish
+- [X] Working Events Project In Javascript
+- [X] Watch PlayList NeetCode
+- [X] Watch Podcast In KASS ATAY PODCAST
+- [X] Watch PlayList CodinGarden Use Code Warse With Problems
+- [X] Solve Problem In CodeWars
+- [X] Watch PlayList English
+- [X] Watch Video What Is JSON Javascript
+- [X] Working Gmail In Form Contact
+- [X] Working Error Messages In Form Contact
+- [X] Check Practice JSON + Practice
+- [X] Check What Is TypeScript With Practice
+- [X] Solve Problem In CodeWorse
+- [X] Check CodingGarden With CodeWorse
+- [X] Stude Arrow Function() In Javascript
+- [X] Stude ParseInteger() In Javascript
+- [X] recursive Function()
+- [X] LinkedList Practise
+- [x] Check What Is Angular And Next.Js
 - [23] Intgere Project With Google Console And Google Analytique
-- [24] Check Name Cheap By Domaine Name
-- [25] Fix Problem Position First Section
-- [26] Finish Portfolio And Deployement In Vercel
-- [27] Check PlayList NeetCode
-- [28] Check PlayList English
-- [29] Watch Podcast KASS ATAY PODCAST
-- [30] Add Domain Name Random String Generator In Vercel
+- [24] Fix Problem Add Domain Name In Phone
+- [24] Check PlayList NeetCode
+- [25] Check PlayList English
+- [26] Watch Podcast KASS ATAY PODCAST
+- [27] Stude All Data Stractures And Time Complexity With Exerices And Practice
+- [28] Solve Problem With Functions Javascript And Then Have it Solution Using Algortihms In Another Problem 
+- [29] Stude Commands Angular And Next.js And React + Practice
+- [30] Stude Undefined() And Null() And $() Functions In Javascript + Practice
+- [31] Stude flex-basis And fit-content In Css And All Positions + Practice
+- [32] Working Cv RESUME In PDF And Integere In Project
+- [33] Stude JSX
+- [34] Stude Promisies
+- [35] React.js 
+- [36] XHR 
+- [36] API
