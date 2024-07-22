@@ -1,36 +1,3 @@
-- [X] Fixed Error In NavBar
-- [X] Push Project And Deplyoment In Vercel For Finish
-- [X] Working Events Project In Javascript
-- [X] Watch PlayList NeetCode
-- [X] Watch Podcast In KASS ATAY PODCAST
-- [X] Watch PlayList CodinGarden Use Code Warse With Problems
-- [X] Solve Problem In CodeWars
-- [X] Watch PlayList English
-- [X] Watch Video What Is JSON Javascript
-- [X] Working Gmail In Form Contact
-- [X] Working Error Messages In Form Contact
-- [X] Check Practice JSON + Practice
-- [X] Check What Is TypeScript With Practice
-- [X] Solve Problem In CodeWorse
-- [X] Check CodingGarden With CodeWorse
-- [X] Stude Arrow Function() In Javascript
-- [X] Stude ParseInteger() In Javascript
-- [X] recursive Function()
-- [X] LinkedList Practise
-- [x] Check What Is Angular And Next.Js
-- [23] Intgere Project With Google Console And Google Analytique
-- [24] Fix Problem Add Domain Name In Phone
-- [24] Check PlayList NeetCode
-- [25] Check PlayList English
-- [26] Watch Podcast KASS ATAY PODCAST
-- [27] Stude All Data Stractures And Time Complexity With Exerices And Practice
-- [28] Solve Problem With Functions Javascript And Then Have it Solution Using Algortihms In Another Problem 
-- [29] Stude Commands Angular And Next.js And React + Practice
-- [30] Stude Undefined() And Null() And $() Functions In Javascript + Practice
-- [31] Stude flex-basis And fit-content In Css And All Positions + Practice
-- [32] Working Cv RESUME In PDF And Integere In Project
-- [33] Stude JSX
-- [34] Stude Promisies
-- [35] React.js 
-- [36] XHR 
-- [36] API
+- [33] Analytics And Map
+- [34] Adcence Integrate Project With Adcence
+- [34] Working Cv RESUME In PDF And Integere In Project
