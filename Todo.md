@@ -1,3 +1,5 @@
-- [33] Analytics And Map
+- [x] Analytics And Map
 - [34] Adcence Integrate Project With Adcence
 - [34] Working Cv RESUME In PDF And Integere In Project
+- [35] npm And npx And ng + all commands Github 
+- [36] Working Project Chikayati Angular
